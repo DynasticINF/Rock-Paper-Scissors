@@ -1,0 +1,1 @@
+Rock Paper Scissors Implementation using Javascript. Project was used as a way to test newfound Javascript skills. I learned alot and improved both my programming skills and problem solving!
