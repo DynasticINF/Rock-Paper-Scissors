@@ -7,7 +7,8 @@
   <script>
         let playerWin = 0;
         let computerWin = 0;
-        
+        let playerSelection;
+        let computerSelection;
 
         function computerPlay(){
             const randomSelect = ["Rock", "Paper", "Scissors"];
@@ -17,6 +18,7 @@
         function playRound(playerSelection, computerSelection){
            playerSelection = prompt("Choose Rock, Paper Or Scissors: ");
            computerSelection = computerPlay();
+
            
           if(playerSelection === "rock" && computerSelection === "Paper"){
             console.log("You Lose! Paper Beats Rock!");
@@ -47,6 +49,7 @@
             console.log("Player: " + playerWin + " | Computer: " + computerWin);
           }     
         }
+        
         function game(){
           let i;
           for(i = 0; i<5; i++){
@@ -67,3 +70,8 @@
 
 
 
+buttons.forEach((button) => {
+  button.addEventListener('click', (e) =>{
+    
+  });
+})
